@@ -1,0 +1,33 @@
+.card {
+  border-radius: 5px;
+  border-bottom: 3px solid seagreen;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+}
+
+.card__heading {
+  display: flex;
+  align-items: center;
+}
+
+.card__heading__number {
+  position: relative;
+  margin-right: 0.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  opacity: 0.6;
+  color: seagreen;
+}
+
+.card__heading__title {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.card__text {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: rgba(255, 255, 255, 0.6);
+}

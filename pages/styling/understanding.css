@@ -1,0 +1,18 @@
+.understanding {
+  padding: 0 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.understanding__text {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 200ms ease-in-out;
+}
+
+.understanding__text:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
